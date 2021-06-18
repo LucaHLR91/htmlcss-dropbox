@@ -10,6 +10,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.w-100 {
+    width: 100%;
+}
+
 /* /common */
 
 
@@ -24,8 +28,11 @@ body {
 
 /* debug */
 
-.debug {
-
+.debug .w-100 {
+    height: 80px;
+    background-color: red;
 }
+
+
 
 /* /debug */
