@@ -209,9 +209,27 @@ header a {
 
 .debug h2 {
     background-color: brown;
+    padding-bottom: 30px;
 }
 
+.debug .container {
+    background-color: chartreuse;
+}
 
+.debug .col {
+    border: 1px solid black;
+}
+
+.debug .col-sup {
+    float: left;
+    width: calc(100% / 3);
+    background-color: red;
+}
+
+.debug .col-bot {
+    width: 100%;
+    background-color: yellow;
+}
 
 
 
