@@ -59,6 +59,10 @@ nav a:hover {
 
 /* header  */
 
+header {
+    height: 80px;
+}
+
 .menu-left, .menu-right {
     width: 30%;
     height: 100%;
@@ -99,9 +103,41 @@ header a {
 
 .jumbotron {
     width: 100%;
-    height: 700px;
+    height: 750px;
     background-color: rgb(180, 208, 231);
 }
+
+.jumbotron h1 {
+    padding: 30px 0;
+    font-size: 90px;
+}
+
+.jumbo-left {
+    width: 40%;
+    padding: 20px 0;
+}
+
+.jumbo-right {
+    width: 60%;
+    height: 600px;
+}
+
+.jumbotron a {
+    text-decoration: none;
+}
+
+.jumbo-left div {
+    padding: 0 0 20px 0;
+}
+
+.jumbotron img {
+    width: 100%;
+}
+
+.jumbotron i {
+    font-size: 50px;
+}
+
 
 /* /jumbotron */
 
@@ -142,20 +178,22 @@ header a {
 
 .debug h1 {
     background-color: khaki;
+    padding: 30px 0;
     font-size: 90px;
 }
 
 .debug .jumbo-left {
     width: 40%;
-    height: 200px;
+    padding: 20px 0;
     background-color: lawngreen;
 }
 
 .debug .jumbo-right {
     width: 60%;
-    height: 200px;
+    height: 600px;
     background-color: lightcoral;
 }
+
 
 
 
