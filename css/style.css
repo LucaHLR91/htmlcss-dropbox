@@ -58,6 +58,11 @@ nav a:hover {
     border-bottom: 1px solid black;
 }
 
+.section-title {
+    color: black;
+    font-size: 20px;
+}
+
 /* /common */
 
 
@@ -107,8 +112,9 @@ header a {
 
 .jumbotron {
     width: 100%;
-    height: 730px;
+    height: 850px;
     background-color: rgb(180, 208, 231);
+    margin-bottom: 200px;
 }
 
 .jumbotron h1 {
@@ -117,13 +123,13 @@ header a {
 }
 
 .jumbo-left {
-    width: 40%;
+    width: 30%;
     padding: 20px 0;
 }
 
 .jumbo-right {
-    width: 60%;
-    height: 600px;
+    width: 70%;
+    height: 660px;
 }
 
 .jumbotron a {
@@ -136,6 +142,7 @@ header a {
 
 .jumbotron img {
     width: 100%;
+    height: 100%;
 }
 
 .jumbotron i {
@@ -199,6 +206,10 @@ header a {
 } */
 
 
+
+.debug h2 {
+    background-color: brown;
+}
 
 
 
