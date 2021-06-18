@@ -145,6 +145,18 @@ header a {
     font-size: 90px;
 }
 
+.debug .jumbo-left {
+    width: 40%;
+    height: 200px;
+    background-color: lawngreen;
+}
+
+.debug .jumbo-right {
+    width: 60%;
+    height: 200px;
+    background-color: lightcoral;
+}
+
 
 
 
