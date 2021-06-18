@@ -87,7 +87,14 @@ header a {
 
 /* /header  */
 
+/* jumbotron */
 
+.jumbotron {
+    width: 100%;
+    background-color: rgb(180, 208, 231);
+}
+
+/* /jumbotron */
 
 
 
