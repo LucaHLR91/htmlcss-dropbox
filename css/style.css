@@ -49,6 +49,7 @@ body {
     padding: 5px 20px;
 }
 
+
 .blue {
     background-color: rgb(0, 97, 255);
     color: white;
@@ -66,6 +67,19 @@ nav a:hover {
 h2 {
     padding-bottom: 30px;
     font-size: 50px;
+}
+
+h3 {
+    font-size: 25px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+}
+
+h4 {
+    padding-left: 10px;
+    padding-bottom: 10px;
+
 }
 
 
@@ -171,13 +185,13 @@ header a {
 
 .col {
     border: 1px solid lightgrey;
-    margin: 0 10px;
+    margin: 20px 10px;
 }
 
 
 .col-sup {
     width: calc((100% / 3) - 20px);
-    height: 800px;
+    height: 900px;
     padding: 20px;
 }
 
@@ -195,17 +209,7 @@ header a {
     padding: 20px 0;
 }
 
-.col-section h3 {
-    padding-left: 10px;
-    padding-bottom: 10px;
 
-}
-
-.col-section h4 {
-    padding-left: 10px;
-    padding-bottom: 10px;
-
-}
 
 .col-section p {
     padding-left: 10px;
@@ -221,6 +225,7 @@ header a {
     text-decoration: none;
 }
 
+
 .col-section ul li {
     list-style-position: inside;
     list-style: none;
@@ -232,6 +237,29 @@ header a {
     color: rgb(0, 97, 255);
     margin-right: 5px;
 }
+
+.col-bot {
+    width: 100%;
+}
+
+.col-bot-right {
+    width: 70%;
+    padding: 30px;
+}
+
+.col-bot-left {
+    width: 30%;
+    padding: 30px;
+}
+
+.col-bot-right p { 
+    padding: 10px;
+}
+
+.col-bot-left a {
+    text-decoration: none;
+}
+
 
 
 
@@ -298,9 +326,6 @@ header a {
 } */
 
 
-.debug .col {
-    border: 1px solid black;
-}
 
 /* .debug .col-sup {
     width: calc(100% / 3);
