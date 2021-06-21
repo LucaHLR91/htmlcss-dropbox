@@ -26,6 +26,7 @@ section {
 
 .w-60 {
     width: 60%;
+    margin: 0 auto;
 }
 
 .w-80 {
@@ -301,6 +302,23 @@ header a {
     color: black
 }
 
+.color {
+    width: 100%;
+    background-color: rgb(180, 208, 231);
+}
+
+.color div {
+    float: left;
+    width: calc(100% / 3);
+    height: 20px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.color .four-img img {
+    float: left;
+    width: 50%;
+}
 
 
 /* /main */
