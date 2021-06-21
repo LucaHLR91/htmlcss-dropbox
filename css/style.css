@@ -299,26 +299,110 @@ header a {
 }
 
 .row a {
-    color: black
+    color: black;
 }
 
-.color {
-    width: 100%;
+.background {
     background-color: rgb(180, 208, 231);
 }
 
-.color div {
-    float: left;
-    width: calc(100% / 3);
-    height: 20px;
-    background-color: red;
-    border: 1px solid black;
+.content {
+    width: 100%;
 }
 
-.color .four-img img {
-    float: left;
-    width: 50%;
+.content > div {
+    width: calc(100% / 3);
 }
+
+.content-side {
+    background-color: rgb(13, 36, 129);
+}
+
+.content-side div {
+    float: left;
+    position: relative;
+    width: 50%;
+    height: 15vw;
+}
+
+.content-side img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    filter:invert(1);
+    padding: 30px;
+}
+
+.content-center {
+    background-color: rgb(245, 245, 245);
+    padding: 30px;
+    height: 30vw;
+}
+
+.content-center div {
+    padding: 30px 0;
+}
+
+.content-bottom {
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 30px 0;
+}
+
+.content-bottom div {
+    width: calc(100% / 2);
+
+}
+
+
+.content-bottom h2 {
+    width: 80%;
+    color: brown;
+}
+
+
+
+
+
+#designit {
+    background-color: rgb(208, 233, 205);
+}
+
+
+#arizona {
+    background-color: rgb(97, 8, 43);
+}
+
+#florida {
+    background-color: rgb(0, 147, 206);
+}
+
+#topps {
+    background-color: rgb(255, 28, 28);
+}
+
+#world-bicycle {
+    background-color: rgb(255, 28, 28);
+}
+
+#hearst-corp {
+    background-color: rgb(180, 208, 231);
+}
+
+#lonely-planet {
+    background-color: rgb(13, 36, 129);
+}
+
+#clear-channel {
+    background-color: rgb(255, 216, 48);
+}
+
+
+
+
+
 
 
 /* /main */
