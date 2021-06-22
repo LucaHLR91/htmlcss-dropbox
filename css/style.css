@@ -447,7 +447,30 @@ header a {
 
 footer {
     background-color: black;
+    margin: 0 auto;
 }
+
+.top {
+    padding: 70px;
+}
+
+.top div {
+    float: left;
+    width: calc(100% / 5);
+    color: white;
+}
+
+
+.top ul li {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.bottom {
+    color: grey;
+    padding: 70px;
+}
+
 
 /* /footer */
 
