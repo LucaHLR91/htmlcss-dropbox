@@ -445,7 +445,9 @@ header a {
 
 /* footer */
 
-
+footer {
+    background-color: black;
+}
 
 /* /footer */
 
